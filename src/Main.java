@@ -1,15 +1,16 @@
-import list.operacoesBasicas.CarrinhoCompras;
+import list.pesquisa.SomaNumeros;
 
 public class Main {
     public static void main(String[] args) {
-        CarrinhoCompras carrinho = new CarrinhoCompras();
-        carrinho.adicionarItem("Feijão", 9.99, 3);
-        carrinho.adicionarItem("Arroz", 19.99, 2);
-        carrinho.adicionarItem("Oléo", 19.99, 2);
-        carrinho.exibirItens();
-        System.out.printf("total: %,.2f\n",carrinho.calculaValorTotal());
-        carrinho.removeItem("oléo");
-        carrinho.exibirItens();
-
+        SomaNumeros somaNumeros = new SomaNumeros();
+        somaNumeros.adicionaNumero(1);
+        somaNumeros.adicionaNumero(5);
+        somaNumeros.adicionaNumero(10);
+        somaNumeros.adicionaNumero(8);
+        somaNumeros.adicionaNumero(9);
+        System.out.println(somaNumeros.calcularSoma());
+        System.out.println(somaNumeros.exibirNumeros());
+        System.out.println(somaNumeros.encontrarMaiorNumero());
+        System.out.println(somaNumeros.encontrarMenorNumero());
     }
 }

@@ -1,4 +1,4 @@
-package pesquisa;
+package list.pesquisa;
 
 public class Livro {
     private String titulo;
