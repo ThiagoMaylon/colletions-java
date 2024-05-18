@@ -46,7 +46,7 @@ public class Dicionario {
         // Remover uma palavra
         dicionario.removerPalavra("typescript");
         dicionario.exibirPalavras();
-        
+
         // Pesquisar palavras
         String definicaoJava = dicionario.pesquisarPorPalavra("java");
         System.out.println("Definição da linguagem 'java': " + definicaoJava);
